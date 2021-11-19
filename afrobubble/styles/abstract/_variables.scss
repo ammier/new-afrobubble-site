@@ -1,0 +1,20 @@
+// FONTS
+@import url("https://fonts.googleapis.com/css2?family=Risque&display=swap");
+@font-face {
+  font-family: "Riffic Free";
+  src: url("../../public/fonts/RifficFree-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-primary: "Risque", cursive;
+$font-secondary: "Riffic Free", sans-serif;
+
+// COLORS
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #3d2e57;
+  --color-purple: #9068bd;
+  --color-purple-dark: #201434;
+}

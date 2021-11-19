@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  // border: solid 2px red;
+}
+
+::-moz-selection {
+  background: var(--color-purple);
+  color: var(--color-white);
+}
+
+::selection {
+  background: var(--color-purple);
+  color: var(--color-white);
+}
+
+// /* width */
+// ::-webkit-scrollbar {
+//   width: 0px;
+// }
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+html {
+  font-size: 62.5%; // 10px
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  @media only screen and (max-width: 62.5em) {
+    // font-size: 56.25%;
+    font-size: 51.25%;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    // font-size: 54%;
+    font-size: 49%;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    // font-size: 51%;
+    font-size: 46%;
+  }
+
+  @media only screen and (min-width: 140.5em) {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: $font-primary, sans-serif;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  position: relative;
+}
+
+.container {
+  @include layoutGrid;
+  position: relative;
+}
