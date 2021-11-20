@@ -319,6 +319,36 @@ const index: React.FC<indexProps> = ({ }) => {
               <h2>Toye the Mechanic</h2>
               <p>Developer</p>
             </div>
+            <div className="box">
+              <img src="webp/james.webp" alt="team" />
+              <p>@JAMIEBLACKJACK</p>
+              <h2>James the Director</h2>
+              <p></p>
+            </div>
+            <div className="box">
+              <img src="webp/Josh.webp" alt="team" />
+              <p>@WOODS0513</p>
+              <h2>Josh the Jester</h2>
+              <p></p>
+            </div>
+            <div className="box">
+              <img src="webp/Ak CASA.webp" alt="team" />
+              <p>@AKCASA</p>
+              <h2>AK</h2>
+              <p></p>
+            </div>
+            <div className="box">
+              <img src="webp/Radiant-4.webp" alt="team" />
+              <p>@FRONTH4TH</p>
+              <h2>Radiant</h2>
+              <p>Community Lead</p>
+            </div>
+            <div className="box">
+              <img src="" alt="team" />
+              <p>@UMANA_ANDY_</p>
+              <h2>The Go 2 Guy</h2>
+              <p>Advisor</p>
+            </div>
           </div>
         </section>
 
