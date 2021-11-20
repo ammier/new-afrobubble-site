@@ -5,9 +5,9 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
-interface indexProps {}
+interface indexProps { }
 
-const index: React.FC<indexProps> = ({}) => {
+const index: React.FC<indexProps> = ({ }) => {
   const [isNavOpen, setIsNavOpen] = React.useState<boolean>(false);
 
   React.useEffect(() => {
@@ -90,11 +90,11 @@ const index: React.FC<indexProps> = ({}) => {
             <a href="#storySection">Story</a>
             <a href="#roadmapSection">Roadmap</a>
             <a href="#teamSection">Team</a>
-            <a href="#faqSection">FAQs</a>
+            <a href="#faqsSection">FAQs</a>
           </div>
           <div className="box-cta">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Connect with Wallet
+            <a href="https://war.afrobubble.io/" target="" rel="noopener noreferrer">
+              Mint Now
             </a>
           </div>
         </div>
