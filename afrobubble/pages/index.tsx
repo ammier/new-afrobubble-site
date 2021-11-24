@@ -189,7 +189,7 @@ const index: React.FC<indexProps> = ({ }) => {
               </p>
             </div>
           </div>
-          <h2>CITIZENSHIP FEE: 0.28</h2>
+          <h2>CITIZENSHIP FEE: 0.28 SOL</h2>
         </section>
 
         <section id="roadmapSection" className="section-roadmap">
